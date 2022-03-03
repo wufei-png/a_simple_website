@@ -1,0 +1,516 @@
+*{
+	margin:0px;
+	padding:0px;
+	/* 默认无边框 */
+}
+
+.head{
+	width:100%;
+	height:50px;
+	padding-top:20px;
+	background: #99252542;
+}
+
+
+.head_img img{
+	width:40px;
+	height: 50px;
+	float:left;
+	margin-top:-5px;
+	margin-left:15px;
+	border-radius:20px;/*圆角*/
+	display:inline;
+  opacity: 0.5;
+	cursor: pointer;
+}
+
+
+
+.head_search_input form{
+	position: relative;
+	float:left;
+	margin-left: 15px;
+}	
+.head_search_input input{
+	width:300px;
+	height:32px;
+	background: #d1e1ee;
+	text-indent:11px;/*缩进*/
+	border:1px solid #4e98ee;
+	border-radius:3px;
+	
+}
+.head_search_input input:focus{
+	width:400px;
+  background: #f6f7f8;
+	outline: none;/* 否则点开会有黑框 */
+}
+.head_search_input img{
+	position:relative;
+	top:8px;
+	left:-50px;
+	width: 30px;
+	height: 24px;
+  opacity: 0.5;
+}
+
+.head_middle ul{
+	list-style:none;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+	top:5px;
+}
+.head_middle li{
+	float: left;
+	margin-left:10px;
+}
+a{
+	text-decoration:none;
+	/* 针对全局去掉连接下划线 */
+}
+.head_middle a{
+	color:white;
+	font-size:15px;
+}
+.head_middle a:hover{
+	color:darkgray;
+}
+
+.head_right{
+	width: 150px;
+	height:50px;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+}
+.head_right img{
+	width:30px;
+	height:30px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+/* 注意到github原网站左侧背景是白色，右侧是淡黄色，这里仿照划分body为left和right right又划分为mid和right_right*/
+.body_left{
+float:left;
+width:391px;
+height: 740px;
+margin-left: -10px;
+background-color: rgb(148, 189, 212);
+}
+.body_left_up{
+	width:280px;
+	height:35px;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-bottom:4px;
+}
+
+.body_left_up button{
+	float: right;
+	width:60px;
+	height :30px;
+	margin-top:-25px;
+	margin-right: 25px;
+	display: inline;
+	border:1px solid #e8f3f3;
+	border-radius:3px;
+	color:white;
+	background-color:#2bbe4e;
+	cursor:pointer;
+}
+.body_left_up button:hover{
+	background: #20993c;
+}
+
+.body_left_down{
+	width:255px;
+	height:35px;
+	left: 35px;
+	position: relative;
+	margin:0px 15px 10px 20px;
+}
+.body_left_down input{
+	width:100%;
+	height:35px;
+	background: #a1707042;
+	outline: none;/*取消外边框*/
+	border-radius: 3px;
+	border:1px solid #d1d5da;
+	color:#AFB4B9; 
+	text-indent:10px;/*默认缩进*/
+}
+.body_left_down input:focus{
+	border-color:#66afe9;
+	outline:0;
+	box-shadow:  0 1px 1px rgba(15, 5, 5, 0.075),
+	 0 0 10px rgba(98, 166, 223, 0.6);/*点击发光，里面黑色，加一层蓝色*/
+}
+.body_left_down2{
+	color: #4a5681;
+	position: relative;
+	top: 300px;
+	width: 80%;
+}
+.body_left_down2 hr{
+	position: relative;
+	left: 20px;
+	opacity: 0.5;
+	}
+.body_left_down2 h4{
+position: relative;
+left: 45px;
+margin-bottom: 8px;
+}
+.body_left_down2 p{
+	text-align: center;
+	font-size:16px;
+	padding-left:30px;
+	opacity: 0.9;
+	}
+.body_right{
+	float:right;
+	width:80%;
+	height:740px;
+	position:relative;
+	background: #e2e4d0;
+}
+.right_mid1{
+
+	width:65%;
+	height:200px;
+
+	position:relative;
+		margin:40px 30px;
+	border:.7px solid #4e94e2;	
+	border-radius:10px;
+	background: #EAEAEF;
+}
+.right_mid1 h4{
+	padding:35px 70px 12px 28px;
+	margin-left: 10px;
+}
+.right_mid1 p{
+	font-size:16px;
+	padding-left:37px;
+
+}
+
+.right_mid1 a{
+	display: inline;
+	color:#036ae0;
+	text-decoration: none;
+}
+.right_mid1 a:hover{
+	color:#0463cf;
+	text-decoration: underline;/* 实现hover下划线 */
+}
+.right_mid1 button{
+	width:130px;
+	height:40px;
+	float: left;
+	margin-left:32px;
+	margin-top:20px;
+	
+	text-align:center;
+	font-size:15px;
+	
+	color:#1f75db;
+	border:1px solid #acebeb;
+	border-radius:5px;
+	background: white;
+	cursor: pointer;
+}
+.right_mid1 button:hover{
+	background:#637dd3;
+	color:white;
+}
+.right_mid2{
+	margin:100px 30px;
+	text-indent: 5px;
+	color: #59607a;;
+	height: fit-content;
+	width: 1000px;
+}
+.right_mid2_head span{
+	position: relative;
+	top:-10px;
+}
+.right_mid2_text{
+	position: relative;
+	top:-10px;
+	border: 0.5px solid #99252542;;
+	border-radius: 10px;
+	padding: 10px 0 20px 0;
+}
+.right_mid2_text_head{
+	margin-bottom: 7px;
+}
+.right_mid2_text_head form{
+	float: right;
+	margin-right: 10px;
+
+}
+.right_mid2_text_head a{
+	color: #586080;
+}
+.right_mid2_text_text p{
+	margin-bottom: 14px;
+}
+.right_mid2_text_head_right{
+	border: 0.5px solid #99252542;
+	border-radius: 10px;
+	width: 130px;
+	height: 35px;
+	float: right;
+	position: relative;
+	top: -15px;
+	left: -20px;
+}
+.right_mid2 img {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.right_mid2_text_head img{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.right_mid2_text_text img{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top:5px;
+}
+.right_mid2_text_head_right img{
+	position: relative;
+	top:5px;
+	width: 20px;
+	height: 20px;
+	left: -10px;
+	display: inline;
+}
+.right_mid2_text_head_right span{
+	position: relative;
+	top:2px;
+	left: -9px;
+}
+.right_mid2_text_head_right select{
+	width: 40px;
+}
+.right_mid2_text_text span{
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.right_mid2_text_text img:first-of-type{
+	margin-left: 10px;
+}
+.right_mid3{
+	width:70%;
+	height:100px;
+	margin:330px 30px;
+	position:absolute;
+	top: 300px;
+}
+.right_mid3 img{
+	width:22px;
+	height:20px;
+	float: left;
+}
+.right_mid3 p{
+	float: left;
+	font-size:13px;
+	color: #586080;
+}
+.right_mid3 a{
+	display: inline;
+	color:#0366d6;
+	text-decoration: none;
+	
+}
+
+.right_mid3 a:hover{
+	color:#065bbd;
+	text-decoration: underline;
+}
+.right_mid3 right_mid2022{
+	width:60%;
+	height:150px;
+	margin:0px 20px;
+	position:absolute;
+	background-color: #0560c9;
+	
+}
+.right_mid3 right_mid3_left{
+	float:left;
+	position: absolute;
+	top:100px;
+}
+
+.right_mid3 right_mid2022 img{
+	width:40px;
+	height:32px;
+	margin-top:-6px;
+	float: left;
+	cursor:pointer;
+}
+.right_mid3 right_mid2022 p{
+	float:left;
+	font-size:12px;
+	color: #586080;
+	cursor:pointer;
+}
+.right_mid3_right{
+	float:right;
+	position: relative;
+	top:-70px;
+	left: 20px;
+	font-size:12px;
+	color: #586080;
+	cursor:pointer;
+}
+.right_mid3_right td{
+	padding:5px 27px 2px 27px;
+	margin-top:-20px;
+}
+/* 覆盖.right_mid3 a */
+.right_mid3 td a{
+	color: #000;
+}
+.right_right{
+	float:right;
+	width:400px;
+	height:800px;
+	position:absolute;
+	right:0px;
+	top:100px;
+}
+.body_right1{
+	width:350px;
+	height:83px;
+	margin-bottom: 20px;
+	font-size:12px;
+	color:#515772;	
+	border:.5px solid #4e94e2;	
+	border-radius:10px;
+	background:#e3e8ec;
+}
+.body_right1 span{
+	position: absolute;
+	top:-5px;
+	right:30px; 
+	color:gray;
+	font-size:23px;
+	cursor: pointer;
+}
+.body_right1 img{
+	width:30px;
+	height:30px;
+	margin:8px 5px 5px 8px;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+.body_right1 p{
+	float: right;
+	margin-top:10px;
+	margin-right: 35px;
+}
+.body_right2{
+	width:350px;
+	height:100px;
+	margin-bottom: 20px;
+	border:0.5px solid #f8cde8;
+	border-radius:10px;
+	background:#fff9fc;
+	font-size:12px;
+	color:#59607a;
+}
+.body_right2 span{
+	position: absolute;
+	top:100px;
+	right: 30px;  
+	color:gray;
+	font-size:23px;
+	cursor: pointer;
+}
+.body_right2 img{
+	width:30px;
+	height:30px;
+	margin:8px 5px 5px 8px;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+.body_right2 p{
+	float: right;
+	margin-top:10px;
+	margin-right: 17px;
+}
+.body_right3{
+	width:350px;
+	height:58px;
+	margin-bottom: 25px;
+	border:.5px solid #5094e2;
+	border-radius:10px;
+	background:white;
+	font-size:12px;
+	color:#586080;
+}
+.body_right3 span{
+	position: absolute;
+	top:220px;
+	right:32px;  
+	color:#586069;
+	font-size:23px;
+	cursor: pointer;
+}
+.body_right3 img{
+	width:30px;
+	height:30px;
+	margin:8px 5px 5px 8px;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+.body_right3 p{
+	float: right;
+	margin-top:10px;
+	margin-right: 25px;
+}
+.body_right4{
+	width:350px;
+	height:20px;
+	margin-bottom: 5px;
+}
+.body_right4 p{
+	font-size: 14px;
+	color:#317594;
+}
+.body_right5,.body_right6,.body_right7{
+	height:60px;
+	margin-bottom: 5px;
+	font-size:13px;
+	color:#333747;
+}
+.body_right5 a,.body_right6 a,.body_right7 a{
+	display: block;
+	color:#586080;
+	text-align: left;
+	text-decoration: none;
+}
+.body_right5 a:hover,.body_right6 a:hover,.body_right7 a:hover{
+	color:#0366D6;
+}
+
+.body_right7 span{
+	display: block;
+	position:absolute;
+	left:5px;
+	bottom: 10px;
+	cursor: pointer;
+}
